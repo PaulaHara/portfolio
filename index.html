@@ -1,0 +1,91 @@
+<!-- Paula Akemi Hara - Final Project -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <title>Paula Hara - Web Developer/ Full Stack Developer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css" />
+        
+        <link rel="stylesheet" type="text/css" href="src/assets/css/style.css" />
+	</head>
+    
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-left">
+            <a class="navbar-brand" href="index.html">
+                <img class="perfil-photo" src="src/assets/img/perfil-photo.jpg" alt="Perfil photo">
+            </a>
+            
+            <ul class="nav">
+                <li>
+                    <a class="btn btn-lg btn-home" href="index.html">
+                        <span class="glyphicon glyphicon-home icon"></span>
+                        <span class="tooltip-text">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn btn-lg btn-about" href="src/about.html">
+                        <span class="glyphicon glyphicon-user icon"></span>
+                        <span class="tooltip-text">About</span>
+                    </a>
+                <li>
+                    <a class="btn btn-lg btn-skill" href="src/skills.html">
+                        <span class="glyphicon glyphicon-cog icon"></span>
+                        <span class="tooltip-text">Skills</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn btn-lg btn-projects" href="src/projects.html">
+                        <span class="glyphicon glyphicon-briefcase icon"></span>
+                        <span class="tooltip-text">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn btn-lg btn-contact" href="src/contact.html">
+                        <span class="glyphicon glyphicon-envelope icon"></span>
+                        <span class="tooltip-text">Contact</span>
+                    </a>
+                </li>
+
+                <li>
+                    <div class="contacts">
+                        <a class="btn btn-sm btn-social-icon btn-linkedin contact-icons" href="https://www.linkedin.com/in/paula-hara-60226633/" target="_blank">
+                            <span class="fa fa-linkedin"></span>
+                        </a>
+                        <a class="btn btn-sm btn-social-icon btn-facebook contact-icons" href="https://www.facebook.com/paula.hara.7?ref=bookmarks" target="_blank">
+                            <span class="fa fa-facebook"></span>
+                        </a>
+                        <a class="btn btn-sm btn-social-icon btn-twitter contact-icons" href="https://twitter.com/AkemiPHara" target="_blank">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="arrow-left-home"> </div>
+        
+        <div class="content">
+            <img class="home-background-image" src="src/assets/img/fundo-home.jpg" alt="Background Image">
+            <div class="home-text">
+                <p>Hi, I'm Paula, <br> Full-Stack Web Developer.</p>
+                <p class="home-skills-size"><em>Java / PHP / JavaScript / AngularJs / JQuery</em></p>
+                <p id="demo"></p>
+                
+                <a class="home-button" href="src/about.html">About Me</a>
+                <a class="home-button" href="src/skills.html">Skills</a>
+            </div>
+        </div>
+        
+        <script>
+        function myFunction() {
+            var myWindow = window.open("src/about.html", "_self");
+        }
+        </script>
+        
+    </body>
+    
+</html>
