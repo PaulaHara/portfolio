@@ -1,4 +1,7 @@
 (function($){
+    
+    $(".navbar-collapse ul li a").click(function(){$(".navbar-toggler:visible").click()});
+
     $(function(){
         var btn_pagetopblock = $("#pagetop");
         $(window).on("scroll", function() {
@@ -18,5 +21,4 @@
             return false;
         });
     });
-    
 })(jQuery);
