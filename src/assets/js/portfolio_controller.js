@@ -1,14 +1,16 @@
 (function($){
     
-    $(".navbar-collapse ul li a").click(function(){$(".navbar-toggler:visible").click()});
+    $(".navbar-collapse ul li a").click(function(){
+        $(".navbar-toggler:visible").click()
+    });
 
     $(function(){
-        var btn_pagetopblock = $("#pagetop");
+        var btn_pagetop = $("#pagetop");
         $(window).on("scroll", function() {
             if ($(this).scrollTop() < 20) {
-                btn_pagetopblock.addClass("fade");
+                btn_pagetop.addClass("fade");
             } else {
-                btn_pagetopblock.removeClass("fade");
+                btn_pagetop.removeClass("fade");
             }
         });
 
