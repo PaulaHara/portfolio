@@ -1,4 +1,3 @@
-<!-- Paula Akemi Hara - Final Project -->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -11,81 +10,284 @@
         <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css" />
         
         <link rel="stylesheet" type="text/css" href="src/assets/css/style.css" />
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="src/assets/js/portfolio_controller.js"></script>
 	</head>
     
     <body>
-        <div class="navbar navbar-inverse navbar-fixed-left">
-            <a class="navbar-brand" href="index.html">
-                <img class="perfil-photo" src="src/assets/img/perfil-photo.jpg" alt="Perfil photo">
-            </a>
+        <div>
+            <div class="navbar navbar-light bg-light fixed-top">
+                <ul class="nav row">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#box1">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#box2">EDUCATION & JOB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#box3">PROJECTS & AWARD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#box4">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#box5">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
             
-            <ul class="nav">
-                <li>
-                    <a class="btn btn-lg btn-home" href="index.html">
-                        <span class="glyphicon glyphicon-home icon"></span>
-                        <span class="tooltip-text">Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="btn btn-lg btn-about" href="src/about.html">
-                        <span class="glyphicon glyphicon-user icon"></span>
-                        <span class="tooltip-text">About</span>
-                    </a>
-                <li>
-                    <a class="btn btn-lg btn-skill" href="src/skills.html">
-                        <span class="glyphicon glyphicon-cog icon"></span>
-                        <span class="tooltip-text">Skills</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="btn btn-lg btn-projects" href="src/projects.html">
-                        <span class="glyphicon glyphicon-briefcase icon"></span>
-                        <span class="tooltip-text">Projects</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="btn btn-lg btn-contact" href="src/contact.html">
-                        <span class="glyphicon glyphicon-envelope icon"></span>
-                        <span class="tooltip-text">Contact</span>
-                    </a>
-                </li>
-
-                <li>
-                    <div class="contacts">
-                        <a class="btn btn-sm btn-social-icon btn-linkedin contact-icons" href="https://www.linkedin.com/in/paula-hara-60226633/" target="_blank">
-                            <span class="fa fa-linkedin"></span>
-                        </a>
-                        <a class="btn btn-sm btn-social-icon btn-facebook contact-icons" href="https://www.facebook.com/paula.hara.7?ref=bookmarks" target="_blank">
-                            <span class="fa fa-facebook"></span>
-                        </a>
-                        <a class="btn btn-sm btn-social-icon btn-twitter contact-icons" href="https://twitter.com/AkemiPHara" target="_blank">
-                            <span class="fa fa-twitter"></span>
-                        </a>
+            <div class="content">
+                <section id="box" class="txt-center">
+                    <div class="grade"></div>
+                    <div class="home-text">
+                        <p>HI,</p>
+                        <p>I AM PAULA HARA</p>
+                        <h1>Full-Stack Web Developer</h1>
                     </div>
-                </li>
-            </ul>
-        </div>
-        
-        <div class="arrow-left-home"> </div>
-        
-        <div class="content">
-            <img class="home-background-image" src="src/assets/img/fundo-home.jpg" alt="Background Image">
-            <div class="home-text">
-                <p>Hi, I'm Paula, <br> Full-Stack Web Developer.</p>
-                <p class="home-skills-size"><em>Java / PHP / JavaScript / AngularJs / JQuery</em></p>
-                <p id="demo"></p>
+                </section>
+
+                <section id="box1" class="txt-center">
+                    <div class="about">
+                        <p class="title">ABOUT ME</p>
+
+                        <div class="about-content">
+                            <div class="about-photo">
+                                <img src="src/assets/img/my_photo.jpg" alt="Perfil photo">
+                            </div>
+                            
+                            <div class="about-text">
+                                <p>Full Stack Web Developer with 5+ years experience developing and maintaining code for dynamic web projects. Well-versed in numerous programming languages including Java, JavaScript, SQL and JQuery. Supportive and an enthusiastic team player.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="box2" class="txt-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="education col-sm-5 col-md-6">
+                                <p class="title">EDUCATION</p>
+                                <ul>
+                                    <li>
+                                        <h3> Cornerstone International Community College of Canada (2018 - present) </h3>
+                                        <p> Web and Mobile Application Development Diploma </p>
+                                    </li>
+                                    <li>
+                                        <h3> ICONIC Academy - online course (2018 - present) </h3>
+                                        <p> Modeling of Characters </p>
+                                    </li>
+                                    <li>
+                                        <h3> Universidade Federal de São Paulo - Brazil (2008 - 2011) </h3>
+                                        <p> Bachelor of Computer Sciences </p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="jobs col-sm-5 col-md-6">
+                                <p class="title">JOBS</p>
+                                <ul>
+                                    <li>
+                                        <h3> Full Stack Web Developer (2012 - 2017) </h3>
+                                        <h4>Touch Technologia - Brazil </h4>
+                                        <ul class="job-list">
+                                            <li>
+                                                Developed and maintained systems for health industry, using Java, Struts, Spring, Hibernate, JSP, Java Enterprise and Application Servers such as Apache Tomcat
+                                            </li>
+                                            <li>
+                                                Web Development using HTML5, CSS3, JavaScript, AngularJS, and Bootstrap
+                                            </li>
+                                            <li>
+                                                Distributed revision control system using Git
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h3> Intern as Software Developer (2010 - 2011) </h3>
+                                        <h4> Hospital Municipal Dr. José de Carvalho Florence - Brazil </h4>
+                                        <ul class="job-list">
+                                            <li>
+                                                Developed a platform to simplify and facilitate the communication between trainees, doctors, and colleges, regarding projects and thesis assignments
+                                            </li>
+                                            <li>
+                                                Used Java, Tomcat, HTML, CSS, and MySQL
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h3> Intern as Software Developer (2009 - 2010) </h3>
+                                        <h4> Federal Revenue - Brazil </h4>
+                                        <ul class="job-list">
+                                            <li>
+                                                Created an application to organize and archive income tax files
+                                            </li>
+                                            <li>
+                                                Used Java, PostgreeSQL and NetBeans
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="box3" class="txt-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="projects col-sm-5 col-md-6">
+                                <p class="title">PROJECTS</p>
+                                <ul>
+                                    <li>
+                                        <h3> WorkLink (2018 - present) </h3>
+                                        <h4> Back-End Developer </h4>
+                                        <ul class="project-list">
+                                            <li> 
+                                                WorkLink is a platform that simplifies and facilitates the co-op work term process. It allows students to market themselves to prospective employers and for employers to recruit up-and-coming talent
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h3> LoIS (2012 - 2017) </h3>
+                                        <h4> Full Stack Web Developer </h4>
+                                        <ul class="project-list">
+                                            <li> 
+                                                <a href="http://touchhealth.com.br/en/solucoes/logistics-information-system/" target="_blank">LoIS</a> (Logistics Information System) is a modular platform for easy and efficient management of inventory of logistics centers, hospitals, high-cost pharmacies, businesses with distributed operations and companies that want to manage their own stock
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="award col-sm-5 col-md-6">
+                                <p class="title">AWARD</p>
+                                <div class="award-list">
+                                    <h3> Second place in PITec (Student Technological Innovation Award) </h3>
+                                    <h4> Held on November 29, 2011 </h4>
+                                    <p> Created a game that indirectly teaches the participants how to use a computer </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="box4" >
+                    <div class="container">
+                        <p class="title">SKILLS</p>
+
+                        <div class="row">
+                            <ul>
+                                <li class="icons">
+                                    <span class="fab fa-angular"></span>
+                                </li>
+
+                                <li class="icons">
+                                    <span class="fab fa-html5"></span>
+                                </li>
+
+                                <li class="icons">
+                                    <span class="fab fa-js"></span>
+                                </li>
+
+                                <li>
+                                    <svg id="icon-jquery" viewBox="0 0 32 32" class="svg-inline--fa fa-w-14 fa-5x icons">
+                                        <path d="M2.045 7.832c-2.831 4.067-2.48 9.356-0.316 13.675 0.049 0.105 0.104 0.205 0.157 0.305 0.031 0.069 0.065 0.133 0.103 0.199 0.017 0.037 0.041 0.076 0.063 0.111 0.035 0.069 0.072 0.136 0.108 0.203l0.209 0.353c0.039 0.065 0.076 0.129 0.12 0.195 0.073 0.125 0.16 0.249 0.236 0.375 0.035 0.052 0.067 0.104 0.105 0.156 0.148 0.232 0.284 0.425 0.428 0.612l-0.015-0.020c0.104 0.143 0.208 0.281 0.32 0.42 0.036 0.051 0.076 0.101 0.113 0.152l0.295 0.359c0.036 0.041 0.072 0.089 0.111 0.132 0.131 0.157 0.269 0.311 0.408 0.465 0 0.003 0.004 0.005 0.007 0.009 0.172 0.217 0.358 0.409 0.56 0.582l0.006 0.005c0.107 0.109 0.213 0.219 0.327 0.325l0.135 0.129c0.148 0.139 0.296 0.277 0.452 0.411 0.003 0 0.004 0.003 0.007 0.004l0.076 0.067c0.136 0.119 0.273 0.237 0.413 0.347l0.167 0.14c0.113 0.091 0.231 0.177 0.347 0.267l0.181 0.139c0.124 0.093 0.256 0.185 0.383 0.276 0.047 0.033 0.093 0.067 0.141 0.097l0.039 0.031 0.375 0.247 0.16 0.107c0.196 0.125 0.391 0.244 0.584 0.361 0.056 0.028 0.112 0.059 0.164 0.091 0.144 0.083 0.293 0.167 0.439 0.244 0.080 0.045 0.163 0.084 0.245 0.125 0.1 0.056 0.204 0.111 0.311 0.167 0.029 0.009 0.054 0.019 0.077 0.032l-0.002-0.001c0.044 0.020 0.085 0.041 0.128 0.063 0.16 0.080 0.327 0.156 0.5 0.232 0.032 0.013 0.067 0.027 0.101 0.045 0.192 0.084 0.384 0.164 0.583 0.243 0.045 0.013 0.093 0.036 0.14 0.053 0.18 0.068 0.365 0.137 0.548 0.203l0.067 0.024c0.204 0.069 0.405 0.136 0.612 0.2 0.048 0.013 0.097 0.031 0.148 0.044 0.212 0.064 0.417 0.14 0.631 0.181 13.68 2.493 17.656-8.225 17.656-8.225-3.34 4.349-9.267 5.496-14.88 4.22-0.208-0.048-0.416-0.115-0.625-0.176-0.382-0.11-0.633-0.192-0.882-0.28l0.126 0.039-0.083-0.032c-0.181-0.061-0.356-0.129-0.533-0.197-0.034-0.015-0.082-0.033-0.132-0.050l-0.015-0.004c-0.196-0.079-0.387-0.16-0.576-0.244-0.041-0.013-0.076-0.032-0.117-0.048-0.35-0.155-0.508-0.231-0.665-0.308l0.184 0.081c-0.049-0.021-0.093-0.044-0.141-0.069-0.125-0.059-0.251-0.125-0.373-0.189-0.114-0.054-0.196-0.097-0.276-0.142l0.027 0.014c-0.151-0.080-0.301-0.167-0.452-0.249-0.045-0.032-0.097-0.059-0.149-0.088-0.289-0.169-0.479-0.288-0.668-0.409l0.084 0.050c-0.064-0.040-0.115-0.075-0.165-0.111l0.008 0.006c-0.172-0.106-0.308-0.197-0.44-0.291l0.024 0.017c-0.047-0.031-0.089-0.064-0.137-0.097-0.17-0.118-0.298-0.211-0.424-0.306l0.032 0.023c-0.056-0.045-0.116-0.088-0.176-0.133-0.117-0.092-0.236-0.18-0.353-0.277l-0.157-0.125c-0.174-0.14-0.319-0.263-0.461-0.388l0.016 0.013c-0.015-0.014-0.031-0.028-0.048-0.039l-0.001-0.001-0.463-0.421-0.133-0.125c-0.109-0.111-0.221-0.217-0.333-0.327l-0.129-0.133c-0.138-0.137-0.273-0.278-0.404-0.421l-0.008-0.009-0.020-0.021c-0.141-0.155-0.279-0.312-0.417-0.472-0.036-0.041-0.069-0.085-0.107-0.129l-0.301-0.369c-0.105-0.131-0.254-0.326-0.4-0.522l-0.054-0.075c-3.113-4.251-4.24-10.117-1.748-14.929z">
+                                        </path>
+                                        <path d="M10.828 4.407c-2.052 2.945-1.936 6.884-0.339 9.999 0.296 0.584 0.596 1.078 0.928 1.547l-0.025-0.038c0.307 0.44 0.645 0.96 1.056 1.315 0.143 0.163 0.297 0.32 0.459 0.479l0.12 0.12c0.152 0.147 0.308 0.291 0.467 0.433l0.020 0.017c0.16 0.141 0.34 0.29 0.524 0.435l0.028 0.021c0.045 0.031 0.084 0.067 0.128 0.097 0.187 0.144 0.375 0.283 0.569 0.42l0.020 0.012c0.083 0.060 0.171 0.115 0.264 0.173 0.037 0.024 0.080 0.056 0.12 0.080 0.141 0.091 0.28 0.176 0.423 0.263 0.023 0.009 0.043 0.021 0.064 0.031 0.12 0.073 0.251 0.144 0.376 0.209 0.044 0.027 0.087 0.047 0.132 0.072 0.089 0.044 0.177 0.091 0.263 0.136l0.043 0.019c0.18 0.088 0.364 0.171 0.544 0.253 0.045 0.017 0.084 0.032 0.123 0.051 0.148 0.064 0.299 0.125 0.447 0.183 0.067 0.023 0.129 0.049 0.192 0.069 0.136 0.051 0.279 0.097 0.413 0.144l0.187 0.060c0.195 0.060 0.392 0.139 0.597 0.172 10.56 1.751 13.005-6.383 13.005-6.383-2.201 3.168-6.461 4.677-11.001 3.499-0.277-0.071-0.476-0.13-0.673-0.195l0.076 0.022c-0.064-0.017-0.12-0.037-0.181-0.056-0.139-0.048-0.281-0.095-0.416-0.145l-0.192-0.072c-0.149-0.060-0.301-0.116-0.447-0.18-0.045-0.020-0.087-0.033-0.121-0.053-0.187-0.084-0.375-0.167-0.556-0.256l-0.275-0.143-0.159-0.080c-0.123-0.064-0.236-0.131-0.353-0.2-0.033-0.016-0.060-0.031-0.086-0.047l0.003 0.002c-0.141-0.088-0.288-0.173-0.423-0.264-0.045-0.025-0.087-0.056-0.129-0.083l-0.277-0.181c-0.192-0.133-0.38-0.277-0.569-0.416-0.043-0.039-0.084-0.071-0.125-0.105-1.996-1.569-3.571-3.715-4.317-6.144-0.787-2.525-0.613-5.357 0.745-7.656z">
+                                        </path>
+                                        <path d="M18.213 1.845c-1.211 1.776-1.327 3.981-0.493 5.94 0.885 2.080 2.696 3.713 4.805 4.487 0.087 0.033 0.171 0.061 0.26 0.093l0.117 0.036c0.123 0.039 0.247 0.084 0.373 0.112 5.835 1.125 7.413-2.996 7.839-3.601-1.389 1.995-3.719 2.473-6.576 1.779-0.279-0.070-0.509-0.143-0.732-0.228l0.044 0.015c-0.337-0.119-0.609-0.233-0.873-0.361l0.050 0.022c-0.55-0.269-1.022-0.562-1.462-0.896l0.021 0.016c-2.56-1.939-4.145-5.64-2.476-8.655z">
+                                        </path>
+                                    </svg>
+                                </li>
+
+                                <li class="icons">
+                                    <span class="fab fa-vuejs"></span>
+                                </li>
+
+                                <li class="icons">
+                                    <span class="fab fa-java"></span>
+                                </li>
+
+                                <li class="icons">
+                                    <span class="fab fa-laravel"></span>
+                                </li>
+
+                                <li class="icons">
+                                    <span class="fab fa-php"></span>
+                                </li>
+
+                                <li>
+                                    <svg id="icon-adobephotoshop" viewBox="0 0 32 32" class="svg-inline--fa fa-w-20 fa-3x icons">
+                                        <path d="M0 0.4v31.2h32v-31.2h-32zM1.333 1.733h29.333v28.533h-29.333v-28.533zM7.733 7.707c0-0.089 0.187-0.155 0.299-0.155 0.859-0.044 2.117-0.067 3.437-0.067 3.696 0 5.133 2.027 5.133 4.621 0 3.387-2.456 4.84-5.469 4.84-0.507 0-0.68-0.023-1.033-0.023v5.123c0 0.111-0.044 0.155-0.153 0.155h-2.059c-0.111 0-0.153-0.040-0.153-0.151v-14.344zM10.1 14.789c0.307 0.021 0.549 0.021 1.080 0.021 1.56 0 3.027-0.549 3.027-2.661 0-1.693-1.048-2.552-2.829-2.552-0.528 0-1.033 0.021-1.276 0.044v5.152zM21.576 13.205c-1.056 0-1.408 0.528-1.408 0.968 0 0.484 0.24 0.813 1.649 1.54 2.091 1.013 2.749 1.98 2.749 3.409 0 2.133-1.627 3.28-3.827 3.28-1.168 0-2.16-0.244-2.733-0.573-0.087-0.044-0.107-0.109-0.107-0.22v-1.956c0-0.133 0.064-0.177 0.152-0.112 0.832 0.551 1.803 0.792 2.683 0.792 1.056 0 1.496-0.44 1.496-1.035 0-0.484-0.307-0.903-1.649-1.607-1.893-0.907-2.685-1.827-2.685-3.369 0-1.716 1.341-3.147 3.673-3.147 1.147 0 1.952 0.176 2.392 0.373 0.109 0.067 0.133 0.176 0.133 0.264v1.827c0 0.111-0.067 0.177-0.2 0.133-0.592-0.352-1.467-0.573-2.324-0.573z">
+                                        </path>
+                                    </svg>
+                                </li>
+
+                                <li>
+                                    <svg id="icon-adobeillustrator" viewBox="0 0 32 32" class="svg-inline--fa fa-w-20 fa-3x icons">
+                                        <path d="M0 0.4v31.2h32v-31.2h-32zM1.333 1.733h29.333v28.533h-29.333v-28.533zM11.1 18.067l-1.056 3.997c-0.023 0.111-0.067 0.136-0.197 0.136h-1.957c-0.133 0-0.153-0.044-0.133-0.197l3.787-13.26c0.067-0.24 0.109-0.451 0.131-1.111 0-0.088 0.044-0.133 0.111-0.133h2.795c0.088 0 0.133 0.024 0.155 0.133l4.247 14.392c0.023 0.111 0 0.176-0.111 0.176h-2.2c-0.111 0-0.176-0.027-0.197-0.115l-1.1-4.020h-4.276zM14.817 15.9c-0.373-1.475-1.253-4.704-1.584-6.267h-0.023c-0.285 1.56-0.989 4.2-1.54 6.267h3.147zM20.817 8.489c0-0.857 0.593-1.364 1.364-1.364 0.813 0 1.364 0.549 1.364 1.364 0 0.88-0.573 1.364-1.387 1.364-0.8 0-1.347-0.484-1.347-1.364zM20.967 11.521c0-0.107 0.044-0.147 0.155-0.147h2.093c0.117 0 0.16 0.044 0.16 0.155v10.527c0 0.111-0.021 0.155-0.153 0.155h-2.067c-0.133 0-0.177-0.067-0.177-0.173v-10.517z">
+                                        </path>
+                                    </svg>
+                                </li>
+
+                                <li class="icons">
+                                    <span class="fab fa-git-square"></span>
+                                </li>
+                                <li class="icons">
+                                    <span class="fab fa-github-square"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
                 
-                <a class="home-button" href="src/about.html">About Me</a>
-                <a class="home-button" href="src/skills.html">Skills</a>
+
+                <section id="box5" >
+                    <div class="container">
+                        <p class="title">Contact</p>
+                        <ul class="contact-icons">
+                            <li>
+                                <a class="btn btn-lg btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/paula-hara-60226633/" target="_blank">
+                                    <span class="fab fa-linkedin"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-lg btn-social-icon btn-github" href="https://github.com/PaulaHara" target="_blank">
+                                    <span class="fab fa-github-square"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-lg btn-social-icon btn-facebook" href="https://www.facebook.com/paula.hara.7?ref=bookmarks" target="_blank">
+                                    <span class="fab fa-facebook"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-lg btn-social-icon btn-twitter" href="https://twitter.com/AkemiPHara" target="_blank">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-lg btn-social-icon icon-envelope" href="mailto:paulahara90@gmail.com">
+                                    <span class="fas fa-envelope-square"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
             </div>
         </div>
-        
-        <script>
-        function myFunction() {
-            var myWindow = window.open("src/about.html", "_self");
-        }
-        </script>
-        
+
+        <p id="pagetop">
+            <a href="" ng-click="scrollTop()">
+                <span class="glyphicon glyphicon-menu-up"></span>
+            </a>
+        </p>
+
+        <div class="footer">
+            <p>© PAULA HARA 2018.</p>
+        </div>
     </body>
     
 </html>
