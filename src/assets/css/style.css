@@ -96,6 +96,11 @@
     margin-bottom: 5%;
 }
 
+#box6 {
+    background-color: #e5ecef;
+    margin-bottom: 5%;
+}
+
 .about-content {
     display: inline-block;
     width: 65%;
@@ -144,6 +149,14 @@
 
 .award-list {
     text-align: justify;
+}
+
+.hobbies-text {
+    font-size: 5rem;
+    padding-left: 10%;
+    font-size: 20px;
+    text-align: justify;
+    width: 90%;
 }
 
 #box4 ul {
