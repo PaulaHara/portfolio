@@ -72,6 +72,12 @@
     opacity: 0.8;
 }
 
+#boxTest {
+    margin-bottom: 5%;
+    background-image: url('../img/20230718_181733-EFFECTS.jpg');
+    height: 100vh;
+}
+
 #box {
     margin-bottom: 5%;
     background-image: url('../img/20230718_181733-EFFECTS.jpg');
