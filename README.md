@@ -1,2 +1,2 @@
 # Portfolio
-This simple portfolio was made using HTML, CSS, Bower Components and Javascript.
+This portfolio was made using HTML, CSS, Bower Components and Javascript.
